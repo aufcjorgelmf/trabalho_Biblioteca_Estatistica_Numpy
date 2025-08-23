@@ -1,17 +1,17 @@
 # Biblioteca de Análise Estatística com NumPy
 
-## [cite_start]Objetivo da Biblioteca [cite: 17]
+## Objetivo da Biblioteca
 
-[cite_start]Este projeto foi desenvolvido como uma atividade prática para a disciplina de Programação em Python, com o objetivo de consolidar os conceitos da linguagem e o uso da biblioteca NumPy para manipulação de dados numéricos[cite: 3, 31]. [cite_start]A biblioteca implementa funcionalidades básicas de álgebra linear e geração de números aleatórios[cite: 31].
+Este projeto foi desenvolvido como uma atividade prática para a disciplina de Programação em Python, com o objetivo de consolidar os conceitos da linguagem e o uso da biblioteca NumPy para manipulação de dados numéricos[cite: 3, 31]. [cite_start]A biblioteca implementa funcionalidades básicas de álgebra linear e geração de números aleatórios.
 
-## [cite_start]Funcionalidades Implementadas [cite: 18]
+## Funcionalidades Implementadas
 
 A biblioteca é organizada em módulos e oferece as seguintes funções:
 
-* **`descrever_matriz(matriz)`**: Recebe uma matriz quadrada NumPy e retorna um dicionário com seu determinante, sua matriz inversa e seus autovalores/autovetores. [cite_start]Utiliza o submódulo `numpy.linalg`[cite: 7, 12].
-* **`gerar_amostra_multivariada(media, matriz_cov, n_amostras)`**: Gera uma amostra de dados pseudo-aleatórios a partir de uma distribuição normal multivariada. [cite_start]Utiliza o submódulo `numpy.random`[cite: 8, 12].
+* **`descrever_matriz(matriz)`**: Recebe uma matriz quadrada NumPy e retorna um dicionário com seu determinante, sua matriz inversa e seus autovalores/autovetores. Utiliza o submódulo `numpy.linalg`.
+* **`gerar_amostra_multivariada(media, matriz_cov, n_amostras)`**: Gera uma amostra de dados pseudo-aleatórios a partir de uma distribuição normal multivariada. Utiliza o submódulo `numpy.random`.
 
-## [cite_start]Instruções de Instalação [cite: 20]
+## Instruções de Instalação
 
 1.  Clone este repositório.
 2.  Crie e ative um ambiente virtual:
@@ -24,7 +24,7 @@ A biblioteca é organizada em módulos e oferece as seguintes funções:
     pip install numpy pandas
     ```
 
-## [cite_start]Exemplos de Uso [cite: 19]
+## Exemplos de Uso
 
 Para usar a biblioteca, execute o script `exemplo_uso.py`.
 
